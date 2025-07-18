@@ -34,3 +34,7 @@
   
 - we have so many way to apply so what we need to use at the end so answer is XML
 - beacuse its seperate only for log.
+- The <configuration> element is the root element of the logback.xml file. All Logback configuration is enclosed within this element.
+
+** MASTER EXTERNAL API INTEGRATION IN SPRING BOOT STEP BY STEP**
+We you for practices  1. Wheater API (free but need creadit card), 2.theysaidso Quotes API(not free), 3. wheaterstack API (free), 4 APi-ninja.com for quotes api free

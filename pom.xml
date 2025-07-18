@@ -60,6 +60,11 @@
                     <target>16</target>
                 </configuration>
             </plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>5.1.0.4751</version> <!-- Latest as of March 2025 -->
+			</plugin>
         </plugins>
 	</build>
 

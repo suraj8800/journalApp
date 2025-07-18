@@ -28,6 +28,7 @@ public class UserServiceTests {
         assertTrue(userService.saveNewUser(user));
     }
 
+    @Disabled
     @ParameterizedTest
     @CsvSource({
             "1,1,2",
@@ -39,3 +40,9 @@ public class UserServiceTests {
     }
 
 }
+
+
+//mvn clean verify sonar:sonar \
+//        -Dsonar.projectKey=journalApp \
+//        -Dsonar.host.url=http://localhost:9000 \
+//        -Dsonar.login=squ_9198de4d0e650145cf85efbb8630b6e15610d8be

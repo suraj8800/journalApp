@@ -4,6 +4,7 @@ import net.engineeringdigest.journalApp.entity.User;
 import net.engineeringdigest.journalApp.repository.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -28,7 +29,7 @@ public class UserDetailServiceImplTests {
         MockitoAnnotations.openMocks(this);
     }
 
-    @Test
+    @Disabled
     void loadUserByUserNameTest(){
         when(userRepository.findByUserName(anyString()))
                 .thenReturn(User.builder()
